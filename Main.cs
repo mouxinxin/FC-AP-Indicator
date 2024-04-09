@@ -15,7 +15,7 @@ public class Main : MelonMod
     public override void OnInitializeMelon()
     {
         Save.Load();
-        PnlMenuEvent += Patch.PnlMenuPostfix;
+        //PnlMenuEvent += Patch.PnlMenuPostfix;
         SwitchLanguagesEvent += Patch.SwitchLanguagesPostfix;
         MenuSelectEvent += DisableToggle;
         EnterGameScene += RegisterGameObject;
